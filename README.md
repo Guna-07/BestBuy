@@ -2,7 +2,7 @@
 
 * E-commerce application
 * This Project provides a platform for distributors and retailers to sell and buy their products Through Online.
-* It is used to Track the chain of a particular Product Network
+* It is used to Track the chain of a particular Product Network.
 
 # Abstract
 
@@ -17,13 +17,13 @@
 
 # Features
 
-*	Our project provides a login and sign up page for both buyer and seller
-*	Seller can upload their products they are selling and the details about the project will also be provided and those products will be displayed for the buyer
-*	Buyer can explore the products they need through this application
+*	Our project provides a login and sign up page for both buyer and seller.
+*	Seller can upload their products they are selling and the details about the project will also be provided and those products will be displayed for the buyer.
+*	Buyer can explore the products they need through this application.
  
-*	various sellers can upload their products through this application
-*	Buyer can provide rating and comments for the sellers
-*	Buyer can also view others commands so that they can have a idea about the seller and his products
+*	various sellers can upload their products through this application.
+*	Buyer can provide rating and comments for the sellers.
+*	Buyer can also view others commands so that they can have a idea about the seller and his products.
 
 
 # Further Enhancements
