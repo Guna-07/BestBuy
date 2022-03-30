@@ -857,7 +857,7 @@ public class Frame extends javax.swing.JFrame {
         try
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","vishnu");
+            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","guna");
             Statement stmt = conn.createStatement();
             try
             {
@@ -911,7 +911,7 @@ public class Frame extends javax.swing.JFrame {
         try
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","vishnu");
+            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","guna");
             Statement stmt = conn.createStatement();
             try
             {
@@ -982,7 +982,7 @@ public class Frame extends javax.swing.JFrame {
         try
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","vishnu");
+            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","guna");
             PreparedStatement pStmt = conn.prepareStatement("insert into Buyer values(?,?,?,?,?,?,?)");
             try
             {
@@ -1044,7 +1044,7 @@ public class Frame extends javax.swing.JFrame {
         try
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","vishnu");
+            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","guna");
             PreparedStatement pStmt = conn.prepareStatement("insert into Seller values(?,?,?,?,?)");
             try
             {
@@ -1084,7 +1084,7 @@ public class Frame extends javax.swing.JFrame {
         try
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","vishnu");
+            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","guna");
             Statement stmt = conn.createStatement();
             try
             {
@@ -1131,7 +1131,7 @@ public class Frame extends javax.swing.JFrame {
         try
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","vishnu");
+            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","guna");
             PreparedStatement pStmt = conn.prepareStatement("insert into Product values(?,?,?,?,?,?,?,?)");
             try
             {
@@ -1170,7 +1170,7 @@ public class Frame extends javax.swing.JFrame {
         try
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","vishnu");
+            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","guna");
             Statement stmt = conn.createStatement();
             try
             {
@@ -1221,7 +1221,7 @@ public class Frame extends javax.swing.JFrame {
         try
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","vishnu");
+            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","guna");
             PreparedStatement cStmt = conn.prepareStatement("insert into comments values(?,?,?)");
             PreparedStatement rStmt = conn.prepareStatement("insert into rating values(?,?,?)");
             try
@@ -1261,7 +1261,7 @@ public class Frame extends javax.swing.JFrame {
         try
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","vishnu");
+            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","guna");
             Statement stmt = conn.createStatement();
             try
             {
